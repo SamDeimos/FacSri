@@ -11,4 +11,9 @@ class FacSri
         return new Factura($infoTributaria, $infoFactura, $detalle);
     }
 
+    public function comprobanteNotaDeCredito($infoTributaria, $infoFactura, $detalle)
+    {
+        return new Factura($infoTributaria, $infoFactura, $detalle);
+    }
+
 }
