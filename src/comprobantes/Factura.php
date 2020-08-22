@@ -20,6 +20,7 @@ class Factura extends FacSriComprobante
         $this->infoFactura = $infoFactura;
         $this->detalles = $detalle;
         $this->generate();
+        $this->saveComprobante();
     }
 
     public function generate()

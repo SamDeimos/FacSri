@@ -5,9 +5,9 @@ namespace SamDeimos\FacSri;
 class FacSriComprobante
 {
     public $comprobante;
-    Public $claveAcceso;
-    
-    public $path = "ruta";
+    public $claveAcceso;
+
+    public $path = "app\comprobantes";
 
     public function getComprobanteXML()
     {
@@ -21,7 +21,7 @@ class FacSriComprobante
 
     public function saveComprobante()
     {
-
+        $this->comprobante->asXML(storage_path($this->path) . '/' . $this->claveAcceso . ".xml");
     }
 
     public function firmarComprobante()
