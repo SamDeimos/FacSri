@@ -1,10 +1,10 @@
 {
     "name": "samdeimos/facsri",
-    "description": ":package_description",
+    "description": "Facturación electrónica Servicio de Rentas Internas Ecuador",
     "license": "MIT",
     "authors": [
         {
-            "name": "Samdeimos",
+            "name": "SamDeimos",
             "email": "zam.2014.sg@gmail.com",
             "homepage": "https://github.com/samdeimos"
         }
